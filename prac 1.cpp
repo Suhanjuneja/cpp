@@ -1,13 +1,13 @@
-##Q1-Write a program to compute the sum of the first n terms of the following series:
-#1 − 1/2^2 + 1/3^3 - 1/4^4 + 1/5^5 - .......
-.
+//Q1-Write a program to compute the sum of the first n terms of the following series:
+//1 − 1/2^2 + 1/3^3 - 1/4^4 + 1/5^5 - .......
+
 #include <iostream>
 #include <cmath>
 #include <cstdlib> 
 
 using namespace std;
 
-// Function to compute the sum of the series
+//Function to compute the sum of the series
 double computeSeriesSum(int n) {
     double sum = 0.0;
     for (int i = 1; i <= n; i++) {
