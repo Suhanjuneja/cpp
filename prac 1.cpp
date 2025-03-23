@@ -1,12 +1,9 @@
-// Q1-Write a program to compute the sum of the first n terms of the following series:
-//□ = 1 − 1/2^2 + 1/3^3 - 1/4^4 + 1/5^5 - .......
-//The number of terms n is to be taken from the user through the command line. If the
-//command line argument is not found then prompt the user to enter the value of n.
-
-
+##Q1-Write a program to compute the sum of the first n terms of the following series:
+#1 − 1/2^2 + 1/3^3 - 1/4^4 + 1/5^5 - .......
+.
 #include <iostream>
 #include <cmath>
-#include <cstdlib> // For atoi
+#include <cstdlib> 
 
 using namespace std;
 
